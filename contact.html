@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Personal Website</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        nav ul { list-style-type: none; padding: 0; }
+        nav ul li { display: inline; margin-right: 10px; }
+        nav ul li a { text-decoration: none; }
+        header, footer { background-color: #f4f4f4; padding: 10px; }
+        form { margin: 20px 0; }
+        label { display: block; margin-top: 10px; }
+        input, textarea { width: 100%; padding: 8px; margin-top: 5px; }
+        textarea { height: 100px; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Me</h1>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Support</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <address>
+            <p>                </p>
+            <p>Email: <a href="YK459110@gmail.com">email@example.com</a></p>
+        </address>
+
+        <h2>Follow Me</h2>
+        <ul>
+            <li><a href="https://www.instagram.com/allways_yash_12?igsh=NDM0Z2x0NDFzcjJi" target="_blank">Instagram</a></li>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yash kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
